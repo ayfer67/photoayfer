@@ -49,7 +49,7 @@ img {
 }
 
 .btn-img img {
-  width: clamp(160px, 40vw, 240px);
+  width: clamp(100px, 40vw, 120px);
   transition: 0.2s;
 }
 
