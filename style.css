@@ -257,3 +257,35 @@ img {
 .titulo-img {
   margin: 0 auto; /* garante centralização */
 }
+
+/* Placeholder leve enquanto as imagens reais carregam */
+.item {
+  background: #f2f2f2;
+}
+.item img {
+  background: #f2f2f2;
+}
+
+
+/* ==========================
+   LOGO EM CIMA DO TÍTULO
+   ========================== */
+
+.brand{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-logo{
+  width: clamp(70px, 10vw, 120px);
+  height: auto;
+  display: block;
+}
+
+.brand-title{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
